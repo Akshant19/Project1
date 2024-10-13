@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+     /* background-color: red;  */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 40px;
+
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 50%;
+}
+#center{
+   
+    width: 100%;
+   /* background-color: red; */
+    padding: 20px 80px;
+}
+#center h1{
+    font-size: 4.1vw;
+    font-weight: 500;
+    line-height: 4.4vw;
+    
+    
+}
+#center-in{
+    
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 42px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#center-in p{
+    font-size: 1.17vw;
+    font-weight: 600;
+    line-height: 1.8vw;
+    
+}
+#right{
+     width: 20%; 
+    
+}
+.elem{
+    padding: 20px 0px;
+   
+    /* background-color: yellow; */
+    border-top: 2px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.elem i{
+     /* background-color: black; 
+    color: white; */
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 0;
+    
+}
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover{
+    background-color: rgb(226, 221, 221);
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+#bottom{
+    height: 36%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://img.freepik.com/free-photo/pretty-black-woman-s-portrait-wears-braids-pony-tail_633478-1392.jpg); 
+    background-size: cover;
+    background-position: 0% 30%;
+
+}
+

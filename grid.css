@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 20% 20% 20%;
+}
+.elem{
+    height: 100px;
+    width: 100px; 
+    background-color: crimson;
+    border: 3px solid black;
+}

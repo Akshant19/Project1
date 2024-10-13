@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* #parent{
+    height: 500px;
+    width: 500px;
+    background-color: cyan;
+}
+#child{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(224, 152, 101);
+
+} */
+/* #parent{
+    height: 700px;
+    width: 500px;
+    background-color: cyan;
+}
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(224, 152, 101);
+} */
+/* #parent{
+    height: 30vw;
+    width: 30vw;
+    background-color: cyan;
+}
+#child{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(224, 152, 101);
+} */
+
+/* #parent{
+    background-color: rosybrown;
+    font-size: 50px;
+}
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 3em;
+}
+h3{
+    font-size: 2em;
+} */
+
+  /* #parent{
+    height: 100%;
+    width: 100%;
+    background-color: #38cfd1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap;
+} */ 
+/* .child{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    border: 2px solid #eceae9;
+}   */
+
+/* #parent{
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(145, 71, 39);
+}
+#child1{
+    height: 100vh;
+    width: 60%;
+    background-color: rgb(91, 163, 153);
+}
+#child2{
+    height: 100vh;
+    width: 60%;
+    background-color:rgb(205, 51, 195);
+} */
+
+/* #box{
+    height: 400px;
+    width: 400px;
+    background-color: royalblue;
+}
+@media (max-width:700px) {
+    #box{
+        height: 300px;
+        width: 300px;
+        background-color: red;
+    }
+} */
